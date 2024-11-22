@@ -1,0 +1,14 @@
+/obj
+bin
+*.vs
+*.vscode
+*.idea
+Thumbs.db
+ehthumbs.db
+*.nuget
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
