@@ -1,15 +1,15 @@
 namespace Models
 {
-    public class Vehicle
+    public abstract class Vehicle
     {
-        // Propietats
-        public string Model { get; set; }
-        public string Marca { get; set; }
-        public int Any { get; set; }
-        public double VelocitatMaxima { get; set; }
+    // Propietats
+        public string Model { get; protected set; }
+        public string Marca { get; protected set; }
+        public int Any { get; protected set; }
+        public double VelocitatMaxima { get; protected set; }
 
         // Constructor per inicialitzar el vehicle
-        public Vehicle(string model, string marca, int any, double velocitatMaxima)
+        protected Vehicle(string model, string marca, int any, double velocitatMaxima)
         {
             Model = model;
             Marca = marca;
@@ -17,10 +17,7 @@ namespace Models
             VelocitatMaxima = velocitatMaxima;
         }
 
-        // Mètode per mostrar informació sobre el vehicle
-        public void MostrarInformacio()
-        {
-            Console.WriteLine($"Vehicle: {Marca} {Model}, Any: {Any}, Velocitat màxima: {VelocitatMaxima} km/h");
-        }
+        // Mètode abstracte per mostrar informació
+        public abstract void MostrarInformacio();
     }
 }
