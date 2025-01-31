@@ -3,7 +3,7 @@ using Models;  // Importa la classe Vehicle des de Models
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args) //En java seria: public static void main(String[] args)
     {
          // Crear llistes per a cada tipus de vehicle
         List<Vaixell> vaixells = new List<Vaixell>
