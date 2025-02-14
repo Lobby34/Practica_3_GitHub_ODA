@@ -2,3 +2,4 @@
 Aqui començarem la pluja d'idees
 
 primer punt:
+incialitzar gitlfow
