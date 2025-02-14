@@ -6,6 +6,9 @@ namespace Models
 
         //CAMIO MODIFICACIOOOOOO
 
+
+        //CAMIO MODIFICACIOOOOOOOOOOO 2
+
         public Camio(string model, string marca, int any, double velocitatMaxima, int cargaMaxima)
             : base(model, marca, any, velocitatMaxima)
         {
