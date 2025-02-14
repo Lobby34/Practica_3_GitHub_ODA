@@ -9,6 +9,7 @@ namespace Models
         {
             NombrePortes = nombrePortes;
         }
+        //CANVI OFICIAL
 
         public override void MostrarInformacio()
         {
