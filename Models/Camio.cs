@@ -7,7 +7,7 @@ namespace Models
         //CAMIO MODIFICACIOOOOOO
 
 
-        //PROBAAAAAAAAAAAAAA
+        //PROBAAA
 
         public Camio(string model, string marca, int any, double velocitatMaxima, int cargaMaxima)
             : base(model, marca, any, velocitatMaxima)
