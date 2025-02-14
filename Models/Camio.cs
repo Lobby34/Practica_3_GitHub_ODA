@@ -4,6 +4,8 @@ namespace Models
     {
         public int CargaMaxima { get; private set; }
 
+        //CAMIO MODIFICACIOOOOOO
+
         public Camio(string model, string marca, int any, double velocitatMaxima, int cargaMaxima)
             : base(model, marca, any, velocitatMaxima)
         {
